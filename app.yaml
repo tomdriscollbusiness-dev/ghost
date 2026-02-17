@@ -1,0 +1,4 @@
+name: Ghost
+owner: tomdriscollbusiness-dev
+package: .
+kind: wasmer.io/App.v0
