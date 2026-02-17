@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import App from './App.jsx'
-import PrivacyPolicy from './PrivacyPolicy.jsx'
-import RefundPolicy from './RefundPolicy.jsx'
+import Privacy from './Privacy.jsx'
+import Refund from './Refund.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -11,8 +11,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/privacy" element={<PrivacyPolicy />} />
-        <Route path="/refund" element={<RefundPolicy />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/refund" element={<Refund />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
