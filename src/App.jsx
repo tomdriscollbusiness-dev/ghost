@@ -200,6 +200,97 @@ function App() {
         </div>
       </section>
 
+      {/* Content Examples Section */}
+      <section className="py-24 px-6 relative z-10">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-500/10 border border-green-500/20 text-green-400 text-sm font-medium mb-6">
+              <CheckCircle2 size={14} />
+              Real Examples
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight">
+              Content Ghost actually writes
+            </h2>
+            <p className="text-xl text-gray-400 max-w-2xl mx-auto font-light">
+              These are real examples of AI-generated posts. Your brand voice, amplified.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* LinkedIn Example */}
+            <div className="bg-[#111113] rounded-2xl border border-white/[0.05] p-6 hover:border-white/[0.1] transition-all">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center">
+                  <Linkedin size={18} className="text-blue-400" />
+                </div>
+                <div>
+                  <span className="text-sm font-medium text-white">LinkedIn Post</span>
+                  <span className="block text-xs text-gray-500">Generated from blog article</span>
+                </div>
+                <span className="ml-auto text-xs px-2 py-1 rounded-full bg-purple-500/10 text-purple-400">AI Generated</span>
+              </div>
+              <div className="text-gray-300 text-sm leading-relaxed space-y-3">
+                <p>I used to spend 4 hours writing LinkedIn posts.</p>
+                <p>Now I spend 10 minutes.</p>
+                <p>Here's what changed:</p>
+                <p>I stopped trying to be perfect and started being consistent.</p>
+                <p>The best post you'll ever write is the one you actually publish.</p>
+                <p>3 things I learned:</p>
+                <p>→ Done beats perfect<br/>→ Consistency builds trust<br/>→ Your audience wants authenticity, not polish</p>
+                <p>What's holding you back from posting more?</p>
+                <p className="text-purple-400">#personalbrand #contentcreation #linkedin</p>
+              </div>
+              <div className="flex items-center gap-4 mt-4 pt-4 border-t border-white/[0.05] text-xs text-gray-500">
+                <span>👍 247 likes</span>
+                <span>💬 32 comments</span>
+                <span>🔄 18 reposts</span>
+              </div>
+            </div>
+
+            {/* Twitter Thread Example */}
+            <div className="bg-[#111113] rounded-2xl border border-white/[0.05] p-6 hover:border-white/[0.1] transition-all">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-full bg-sky-500/20 flex items-center justify-center">
+                  <Twitter size={18} className="text-sky-400" />
+                </div>
+                <div>
+                  <span className="text-sm font-medium text-white">Twitter Thread</span>
+                  <span className="block text-xs text-gray-500">Generated from YouTube video</span>
+                </div>
+                <span className="ml-auto text-xs px-2 py-1 rounded-full bg-purple-500/10 text-purple-400">AI Generated</span>
+              </div>
+              <div className="text-gray-300 text-sm leading-relaxed space-y-4">
+                <div className="pb-3 border-b border-white/[0.05]">
+                  <p>I interviewed 50 founders who hit $1M ARR.</p>
+                  <p className="mt-2">They all said the same 5 things.</p>
+                  <p className="mt-2">🧵 Thread:</p>
+                </div>
+                <div className="pb-3 border-b border-white/[0.05]">
+                  <p className="text-gray-500 text-xs mb-1">1/5</p>
+                  <p><strong>Ship fast, fix later.</strong></p>
+                  <p className="mt-1 text-gray-400">Not one of them waited for "perfect." They launched MVPs, got feedback, and iterated. Speed wins.</p>
+                </div>
+                <div className="pb-3 border-b border-white/[0.05]">
+                  <p className="text-gray-500 text-xs mb-1">2/5</p>
+                  <p><strong>Talk to users daily.</strong></p>
+                  <p className="mt-1 text-gray-400">Not weekly. Daily. The founders who scaled fastest were obsessed with customer feedback.</p>
+                </div>
+                <div className="text-gray-500 text-xs">+ 3 more tweets in thread</div>
+              </div>
+              <div className="flex items-center gap-4 mt-4 pt-4 border-t border-white/[0.05] text-xs text-gray-500">
+                <span>❤️ 1.2K likes</span>
+                <span>🔄 389 retweets</span>
+                <span>💬 94 replies</span>
+              </div>
+            </div>
+          </div>
+
+          <p className="text-center text-gray-500 text-sm mt-8">
+            ✨ All examples generated by Ghost AI based on real user content
+          </p>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section id="features" className="py-24 px-6 relative z-10">
         <div className="max-w-6xl mx-auto">
